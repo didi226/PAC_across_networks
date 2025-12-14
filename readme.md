@@ -11,23 +11,64 @@ The contents may be updated as the manuscript undergoes further revision and pee
 
 ---
 
-### 📊 Data
-Processed measures of **GABA dynamics** across functional networks.
+## 📂 Repository Structure
 
-### 💻 Code
-Scripts for **feature extraction**, **statistical analysis**, and **visualization** of network-level results.
+code/
+├── source_localization/        # EEG source modeling and network-level extraction
+└── PAC_calculate/              # PAC computation, statistical analysis, and visualization
+
+data/                           # PAC values and statistical results (stored directly here)
+
+info/
+└── all_paticipant_info.xlsx    # Participant demographic and assessment information
+
+---
+
+## 📊 Data
+
+All processed data are stored in the `data/` directory and include:
+
+- **PAC values**  
+  Network-level PAC measures computed within and between large-scale functional networks.
+
+- **Statistical results**  
+  Corresponding **t-values** and **p-values** from group- and condition-level comparisons.
+
+These files provide the quantitative basis for the main results reported in the study.
+
+---
+
+## 💻 Code
+
+All analysis scripts are stored in the `code/` directory and are organized as follows:
+
+- `code/source_localization/`  
+  - EEG preprocessing and source reconstruction  
+  - Mapping sensor-level EEG data to cortical functional networks  
+  - Extracting time series for subsequent PAC analysis  
+
+- `code/PAC_calculate/`  
+  - Computing PAC across relevant frequency bands  
+  - Deriving within-network and between-network PAC connectivity  
+  - Performing statistical analyses and generating visualizations of PAC alterations  
 
 ---
 
 ## 🧩 Status
+
 The manuscript associated with this repository is **currently under preparation / under review**.  
-This repository will be updated once the paper is officially published.
+This repository may be updated as the analysis is refined or the paper is revised.
 
 ---
 
 ## 📩 Contact
-For questions, comments, or collaboration inquiries, please contact:  
+
+For questions, comments, or collaboration inquiries, please contact:
+
+**Qiyun Huang**  
+School of Future Technology, South China University of Technology, China 
+📧 [huangqiyun@pazhoulab.cn](mailto:huangqiyun@pazhoulab.cn)
 
 **Di Chen**  
-School of Automation, South China University of Technology  
+Research Center for Brain-Computer Interface, Pazhou Lab, Guangzhou, China
 📧 [dididichen@outlook.com](mailto:dididichen@outlook.com)
