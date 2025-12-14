@@ -62,7 +62,7 @@ This repository may be updated as the analysis is refined or the paper is revise
 ---
 
 ## 📩 Contact
-
+Encrypted files can be decrypted using GPG with a password provided upon request.
 For questions, comments, or collaboration inquiries, please contact:
 
 **Qiyun Huang**  
