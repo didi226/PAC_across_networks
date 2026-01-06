@@ -13,6 +13,7 @@ The contents may be updated as the manuscript undergoes further revision and pee
 
 ## 📂 Repository Structure
 
+```text
 code/
 ├── source_localization/        # EEG source modeling and network-level extraction
 └── PAC_calculate/              # PAC computation, statistical analysis, and visualization
@@ -21,6 +22,7 @@ data/                           # PAC values and statistical results (stored dir
 
 info/
 └── all_paticipant_info.xlsx    # Participant demographic and assessment information
+
 
 ---
 
@@ -52,12 +54,6 @@ All analysis scripts are stored in the `code/` directory and are organized as fo
   - Deriving within-network and between-network PAC connectivity  
   - Performing statistical analyses and generating visualizations of PAC alterations  
 
----
-
-## 🧩 Status
-
-The manuscript associated with this repository is **currently under preparation / under review**.  
-This repository may be updated as the analysis is refined or the paper is revised.
 
 ---
 
